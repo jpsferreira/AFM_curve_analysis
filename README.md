@@ -9,7 +9,7 @@ $$F = kd $$
 
 The indentation $i$ of the sample is given by the difference between the vertical position of the
 cantilever $z$ and the corresponding deflection, calculated as
-$$i = z_d (z_{CP} d_{CP})$$
+$$i = z - d - (z_{CP} - d_{CP})$$
 where $z_{CP}$ and $d_{CP}$ are the vertical position and deflection at the contact point (CP).
 
 In a AFM force curve, raw data corresponds to the Photovoltage potential $\Delta V$ as a function of time.
@@ -25,7 +25,9 @@ After calibration of the deflection sensitivity, one can obtain force-distance c
 ## MATLAB code
 
 
-## Sample output
+´run_analysis()´
+
+** Output example: **
 
 <img src="https://user-images.githubusercontent.com/11409748/180245394-5c91a77d-b54d-4f55-9890-1ac9ed3cfa3b.png" width="500">
 
