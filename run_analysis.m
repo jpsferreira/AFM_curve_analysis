@@ -15,7 +15,7 @@ angle=17.5; %MLCT veeco probe
 model = 'Hertz';
 %model = 'Sneddon';
 %model = 'JKR';
-fit_limit = 0.13; %(nN)
+fit_limit = 0.5; %(nN)
 %%
 %%%%%%%%%%% %read data file names in current directory  %%%%%%%%%%%%%%%%%%%
 %mat files retrieved from Nanoscope software

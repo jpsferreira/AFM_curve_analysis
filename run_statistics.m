@@ -3,7 +3,7 @@ clc;
 
 cd sample/
 
-testFiles = dir( fullfile('new_pp_cell_11*.mat') );
+testFiles = dir( fullfile('new_pp_cell*.mat') );
 testNames = { testFiles.name };
 
 %initialize the array with data
@@ -24,18 +24,18 @@ for count=1:length(testNames)
         data=load(file_name);
          
         %fitting quality verification
-         rrr2=data.r2sneddon;
+         rrr2=data.r2hertz;
          r2min=0.945;
          
         
-         rr2_0(cell_id,curve_id+1)=real(data.r2sneddon);
+         rr2_0(cell_id,curve_id+1)=real(data.r2hertz);
          
         
          %drop bad fittings 
         %if isreal(rrr2) && real(rrr2) > r2min
         if real(rrr2) > r2min
-         rr2(cell_id,curve_id+1)=data.r2sneddon;
-         elastic_modulus(cell_id,curve_id+1)=real(data.efit);
+         rr2(cell_id,curve_id+1)=data.r2hertz;
+         elastic_modulus(cell_id,curve_id+1)=real(data.ehertz);
         end
   
 end
