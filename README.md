@@ -1,5 +1,3 @@
-#AFM_curve_analysis_in_MATLAB
-
 ## Analysis of force curves from Atomic Force Microscopy (AFM) using MATLAB
 
 
@@ -16,7 +14,7 @@ where $z_{CP}$ and $d_{CP}$ are the vertical position and deflection at the cont
 
 In a AFM force curve, raw data corresponds to the Photovoltage potential $\Delta V$ as a function of time.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11409748/180245328-3cb2081d-15b5-41a2-bdee-20ec548a5a58.gif" width="800">
+<img src="https://user-images.githubusercontent.com/11409748/180257757-b98f2595-1c6e-4cd3-8886-40466995b683.gif" width="400">
 </p>
 
 
