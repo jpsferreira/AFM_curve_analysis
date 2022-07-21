@@ -18,18 +18,48 @@ In a AFM force curve, raw data corresponds to the Photovoltage potential $\Delta
 </p>
 
 
-After calibration of the deflection sensitivity, one can obtain force-distance curve on the sample. Soft samples deform when the cantilever is brought into contact. Change in the tip-sample contact area make the force curve non linear. Retraction curves show negative force peaks due to adhesion, and lower deflections due to dissipative behaviors of the sample.
+After calibration of the deflection sensitivity, one can obtain force-distance curve on the sample. Soft samples deform when the cantilever is brought into contact. Change in the tip-sample contact area make the force curve non linear. Retraction curves show negative force peaks due to adhesion, and lower deflections due to dissipative behaviors of the sample. Any appropriate contact model can be applied to eith approach or withdraw portion of the curve. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11409748/180231272-2d1de43b-41cb-43cf-9f5c-0af1ed9fe628.png" width="400">
+</p>
+# MATLAB code
 
-<img src="https://user-images.githubusercontent.com/11409748/180231272-2d1de43b-41cb-43cf-9f5c-0af1ed9fe628.png" width="500">
+📦AFM_curve_analysis_in_MATLAB
+ ┣ 📂aux_functions  - helper functions
+ ┣ 📂sample - raw data
+ ┣ 📂sensitivity - raw data sensitivity
+ ┣ 📜README.md
+ ┣ 📜analyse_samples_curves.m
+ ┣ 📜analyse_sensitivity_curves.m
+ ┣ 📜plot_typical_curve.m
+ ┣ 📜run_analysis.m
+ ┣ 📜run_statistics.m
+ ┗ 📜sample_example.png
 
-## MATLAB code
+This code processes the raw data signals and apply a contact model to determine sample stiffness. I have implemented the following contact models:
+
+- Hertz model
+- Sneddon model
+- JKR model
+
+### Run sensitivity and sample analsyses:
+```
+run_analysis()
+```
 
 
-´run_analysis()´
-
-** Output example: **
-
+**Output example:**
+<p align="center">
 <img src="https://user-images.githubusercontent.com/11409748/180245394-5c91a77d-b54d-4f55-9890-1ac9ed3cfa3b.png" width="500">
+</p>
+
+
+### Run statistics for the analysed curves:
+```
+run_statistics()
+```
+
+
 
 
 [^1]: [NanoAndMore](https://www.nanoandmore.com/what-is-atomic-force-microscopy)
