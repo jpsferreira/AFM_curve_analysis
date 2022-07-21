@@ -14,7 +14,7 @@ where $z_{CP}$ and $d_{CP}$ are the vertical position and deflection at the cont
 
 In a AFM force curve, raw data corresponds to the Photovoltage potential $\Delta V$ as a function of time.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/11409748/180257757-b98f2595-1c6e-4cd3-8886-40466995b683.gif" width="400">
+<img src="https://user-images.githubusercontent.com/11409748/180257757-b98f2595-1c6e-4cd3-8886-40466995b683.gif" width="700">
 </p>
 
 
