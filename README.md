@@ -2,4 +2,5 @@
 
 ##Typical AFM curve
 
-[afm_curve.pdf](https://github.com/jpsferreira/AFM_curve_analysis/files/9159888/afm_curve.pdf)
+
+![afm_curve](https://user-images.githubusercontent.com/11409748/180231272-2d1de43b-41cb-43cf-9f5c-0af1ed9fe628.png)
