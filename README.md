@@ -1,4 +1,6 @@
-# Analysis of force curves from Atomic Force Microscopy (AFM) using MATLAB
+#AFM_curve_analysis_in_MATLAB
+
+## Analysis of force curves from Atomic Force Microscopy (AFM) using MATLAB
 
 
 A standard AFM in contact mode has a flexible cantilever that contains probe with a tip to contact the sample surface in a raster pattern. A piezoelectric ceramic scanner controls the lateral and the vertical position of the AFM probe relative to the surface. As the AFM tip engages features of different height and stiffness the deflection of the AFM cantilever changes. This deflection is tracked by a laser beam reflected from the back side of the AFM cantilever and directed into a position sensitive photodetector [^1].
@@ -22,7 +24,9 @@ After calibration of the deflection sensitivity, one can obtain force-distance c
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11409748/180231272-2d1de43b-41cb-43cf-9f5c-0af1ed9fe628.png" width="400">
 </p>
-# MATLAB code
+
+
+## MATLAB code
 
 ```
 📦AFM_curve_analysis_in_MATLAB
