@@ -24,6 +24,7 @@ After calibration of the deflection sensitivity, one can obtain force-distance c
 </p>
 # MATLAB code
 
+
 📦AFM_curve_analysis_in_MATLAB
  ┣ 📂aux_functions  - helper functions
  ┣ 📂sample - raw data
@@ -35,6 +36,7 @@ After calibration of the deflection sensitivity, one can obtain force-distance c
  ┣ 📜run_analysis.m
  ┣ 📜run_statistics.m
  ┗ 📜sample_example.png
+
 
 This code processes the raw data signals and apply a contact model to determine sample stiffness. I have implemented the following contact models:
 
